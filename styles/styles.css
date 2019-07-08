@@ -154,6 +154,47 @@
     font-family: Roboto, Arial, sans-serif;
 }
 
+#videoDescription {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 60vw;
+    margin-bottom: 20px;
+}
+
+#channelDescription {
+    display: flex;
+    flex-direction: row;
+}
+#channelDescription h2, p {
+    padding-left: 16px;
+}
+
+#subscribeButton {
+    background-color: red;
+    border-radius: 2px;
+    color: white;
+    width: 240px;
+    height: 56px;
+    cursor: pointer;
+    border-color: red;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+#category {
+    display: flex;
+    flex-direction: row;
+}
+
+#category p {
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
+#category a {
+    text-decoration: none;
+}
+
 
 /* Sidebar */
 #sidebar {
