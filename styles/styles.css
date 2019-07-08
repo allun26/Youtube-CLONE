@@ -7,7 +7,8 @@
     width: 100vw;
     height: 56px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 #guide {
@@ -31,9 +32,30 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-}
-
-#image {
+    height: 30px;
     width: 65px;
 }
 
+#imageSearchButton {
+   font-size: 15px; 
+   color: grey;
+}
+#searchContainer {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+#search {
+    width: 575px;
+    height: 26px;
+}
+
+#guideContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.guideLogo {
+    padding-left: 10px;
+}
