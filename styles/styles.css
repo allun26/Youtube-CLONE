@@ -97,6 +97,21 @@
     top: 0px;
 
 }
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    padding: 0 15px;
+}
+#icon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
 
 
 /* Sidebar */
