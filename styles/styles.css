@@ -2,13 +2,21 @@
     padding: 0px;
     margin: 0px;
 }
+/* styling navigation bar */
 
 #navigation {
-    width: 100vw;
+    width: 1287px;
     height: 56px;
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
+    padding: 0px 16px; 
+    font-family: Roboto, Arial, sans-serif;
+}
+
+#guideContainer {
+    display: flex;
+    justify-content: center;
 }
 
 #guide {
@@ -23,23 +31,10 @@
     cursor: pointer;
 }
 
-#icons {
-    height: 40px;
-    width: 252px;
-    cursor: pointer;
-}
-#searchButton {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    height: 30px;
-    width: 65px;
+.guideLogo {
+    padding-left: 10px;
 }
 
-#imageSearchButton {
-   font-size: 15px; 
-   color: grey;
-}
 #searchContainer {
     display: flex;
     flex-direction: row;
@@ -51,11 +46,46 @@
     height: 26px;
 }
 
-#guideContainer {
+#searchButton {
     display: flex;
     justify-content: center;
+    cursor: pointer;
+    height: 30px;
+    width: 65px;
 }
 
-.guideLogo {
-    padding-left: 10px;
+#icons {
+    height: 40px;
+    width: 252px;
+    cursor: pointer;
+}
+
+#imageSearchButton {
+   font-size: 15px; 
+   color: grey;
+}
+
+/* styling the main part */
+
+#mainContent {
+    width: 1287px;
+    min-height: 4163px;
+}
+
+#main {
+    padding-top: 24px;
+    margin-left: 24px;
+    padding-right: 24px;
+}
+
+#videoTitle {
+    font-weight: 400;
+}
+
+#mainVideo {
+    width: 576px;
+    height: 360px;
+    left: 0px;
+    top: 0px;
+    padding-left: 50px;
 }
