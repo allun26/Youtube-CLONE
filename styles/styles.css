@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navigation {
+    width: 100vw;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#guide {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#logo {
+    height: 24px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#icons {
+    height: 40px;
+    width: 252px;
+    cursor: pointer;
+}
+#searchButton {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#image {
+    width: 65px;
+}
+
