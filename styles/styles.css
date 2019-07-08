@@ -65,27 +65,44 @@
    color: grey;
 }
 
-/* styling the main part */
+/* styling the main content */
 
 #mainContent {
-    width: 1287px;
     min-height: 4163px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #main {
     padding-top: 24px;
     margin-left: 24px;
     padding-right: 24px;
+    background-color: purple;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
 }
 
 #videoTitle {
     font-weight: 400;
+    font-size: 1.8rem;
 }
 
 #mainVideo {
-    width: 576px;
-    height: 360px;
+    width: 825px;
+    height: 528px;
     left: 0px;
     top: 0px;
-    padding-left: 50px;
+
+}
+
+
+/* Sidebar */
+#sidebar {
+    background-color: red;
+    width: 31vw;
+    min-height: 4163px;
+
 }
