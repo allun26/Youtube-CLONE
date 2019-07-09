@@ -92,7 +92,7 @@
 }
 
 #mainVideo {
-    width: 825px;
+    width: 60vw;
     height: 528px;
     left: 0px;
     top: 0px;
@@ -126,7 +126,7 @@
 
 /* styling for spacer*/
 .spacer {
-    width: 825px;
+    width: 60vw;
     height: 1px;
     background-color: lightgray;
     margin: 20px 0px;
@@ -248,5 +248,49 @@
     background-color: red;
     width: 31vw;
     min-height: 4163px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
 
+}
+
+#nextAndAP {
+    display:flex;
+    justify-content: space-between;
+}
+
+#nextAndAP p {
+    font-weight: 500;
+    padding-left: 0px;
+}
+
+#autoplay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#autoplay p {
+    color: lightgrey;
+    padding-right: 5px;
+}
+
+/*Video thumbnails*/
+
+.videoThumbnail img {
+    height: 94px;
+    width: 168px;
+}
+
+.videoThumbnail {
+    display: flex;
+    flex-direction: row;
+}
+
+.videoText p, h3 {
+    padding-left: 5px;
+}
+
+.videoText p {
+    color: lightgrey;
 }
