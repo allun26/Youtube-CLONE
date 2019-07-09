@@ -128,7 +128,7 @@
 .spacer {
     width: 825px;
     height: 1px;
-    background-color: grey;
+    background-color: lightgray;
     margin: 20px 0px;
 }
 
@@ -203,6 +203,10 @@
     flex-direction: row;
 }
 
+#comments {
+    padding-left: 0px;
+}
+
 
 #sortButton {
     display: flex;
@@ -218,6 +222,25 @@
 
 #sortButton p {
     color: lightgrey;
+}
+
+#inputComment {
+    display: flex;
+    align-items: center;
+}
+
+#userImage {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+#inputField {
+    cursor: text;
+    width: 584px;
+    height: 21px;
+    background: transparent;
+    border-color: transparent;
 }
 
 /* Sidebar */
