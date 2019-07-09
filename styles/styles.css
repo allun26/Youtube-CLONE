@@ -88,7 +88,9 @@
 
 #videoTitle {
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #mainVideo {
@@ -105,6 +107,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+#socialsContainer p {
+    padding-left: 0px;
 }
 
 #socialsIcons {
@@ -112,11 +119,24 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    color: gray;
+    cursor: pointer;
 }
+
 
 .socialIcon {
     padding: 0px 10px;
     color: grey;
+    cursor: pointer;
+}
+
+.socialIconsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialIconsContainer p {
+    padding-left: 0px;
 }
 
 #icon {
@@ -145,6 +165,7 @@
 #channelImage {
     height: 48px;
     width: 48px;
+    cursor: pointer;
 }
 
 #channelNameContainer h2 {
@@ -180,19 +201,22 @@
 }
 
 #subscribeButton {
-    background-color: red;
+    background-color: #cc0000;
     border-radius: 2px;
     color: white;
-    width: 240px;
-    height: 56px;
+    width: 132px;
+    border-radius: 2px;
+    height: 36px;
     cursor: pointer;
-    border-color: red;
-    
+    border-color:#cc0000;
+    font-weight: bold;  
+    font-size: 14px;  
 }
 
 #category {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 #category p {
@@ -221,6 +245,7 @@
     flex-direction: row;
     margin-left: 30px;
     align-items: center;
+    cursor: pointer;
 }
 
 #sortIcon {
@@ -344,6 +369,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 5px;
+    cursor: pointer;
 }
 
 .videoThumbnail2 img {
@@ -355,6 +381,7 @@
     display: flex;
     flex-direction: row;
     padding: 5px 0px;
+    cursor: pointer;
 }
 
 .videoText p, h3 {
