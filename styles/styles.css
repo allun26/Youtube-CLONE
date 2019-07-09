@@ -221,7 +221,7 @@
 }
 
 #sortButton p {
-    color: lightgrey;
+    color:  grey;
 }
 
 #inputComment {
@@ -237,10 +237,60 @@
 
 #inputField {
     cursor: text;
-    width: 584px;
+    width: 56vw;
     height: 21px;
     background: transparent;
-    border-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 1px solid lightgrey;
+}
+
+.viewComments {
+    margin-top: 25px;
+}
+
+.commentImage {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.singleComment {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.wholeComment {
+    display: flex;
+    flex-direction: column;
+}
+
+.userName {
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    color: grey;
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+    align-items: center;
+    color:  grey;
+    padding-top: 10px;
+}
+
+
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Sidebar */
