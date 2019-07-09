@@ -6,10 +6,9 @@
 /* styling navigation bar */
 
 #navigation {
-    width: 1287px;
     height: 56px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 16px; 
     
@@ -24,6 +23,7 @@
     width: 24px;
     height: 24px;
     cursor: pointer;
+    padding-top: 4.5px;
 }
 
 #logo {
@@ -78,7 +78,7 @@
     padding-top: 24px;
     margin-left: 24px;
     padding-right: 24px;
-    background-color: purple;
+    /*background-color: purple;*/
     width: 60vw;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@
 }
 
 #socialsContainer {
-    background-color: blue;
+    /*background-color: blue;*/
     width: 60vw;
     display: flex;
     align-items: center;
@@ -116,6 +116,7 @@
 
 .socialIcon {
     padding: 0px 10px;
+    color: grey;
 }
 
 #icon {
@@ -124,9 +125,16 @@
     cursor: pointer;
 }
 
-/* styling for spacer*/
+/* styling for spacers*/
 .spacer {
     width: 60vw;
+    height: 1px;
+    background-color: lightgray;
+    margin: 20px 0px;
+}
+
+.thumbnailSpacer {
+    width: 31.vw;
     height: 1px;
     background-color: lightgray;
     margin: 20px 0px;
@@ -295,7 +303,7 @@
 
 /* Sidebar */
 #sidebar {
-    background-color: red;
+    /*background-color: red;*/
     width: 31vw;
     min-height: 4163px;
     margin-right: 100px;
@@ -321,7 +329,7 @@
 }
 
 #autoplay p {
-    color: lightgrey;
+    color: grey;
     padding-right: 5px;
 }
 
@@ -335,12 +343,25 @@
 .videoThumbnail {
     display: flex;
     flex-direction: row;
+    padding-top: 5px;
+}
+
+.videoThumbnail2 img {
+    height: 94px;
+    width: 168px;
+}
+
+.videoThumbnail2 {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
 }
 
 .videoText p, h3 {
     padding-left: 5px;
+    font-size: 13px;
 }
 
 .videoText p {
-    color: lightgrey;
+    color: grey;
 }
