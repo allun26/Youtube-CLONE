@@ -98,7 +98,6 @@
     height: 528px;
     left: 0px;
     top: 0px;
-
 }
 
 #socialsContainer {
@@ -139,7 +138,7 @@
     padding-left: 0px;
 }
 
-#icon {
+.icon {
     width: 15px;
     height: 15px;
     cursor: pointer;
@@ -154,7 +153,6 @@
 }
 
 .thumbnailSpacer {
-    width: 31.vw;
     height: 1px;
     background-color: lightgray;
     margin: 20px 0px;
