@@ -96,9 +96,9 @@
 #mainVideo {
     width: 60vw;
     height: 528px;
-    left: 0px;
-    top: 0px;
-    border-width: 0px;
+    left: 0;
+    top: 0;
+    border-width: 0;
 }
 
 .socialsContainer {
@@ -111,7 +111,7 @@
 }
 
 .socialsContainer p {
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 #socialsIcons {
