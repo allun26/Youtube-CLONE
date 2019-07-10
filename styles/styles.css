@@ -98,9 +98,10 @@
     height: 528px;
     left: 0px;
     top: 0px;
+    border-width: 0px;
 }
 
-#socialsContainer {
+.socialsContainer {
     /*background-color: blue;*/
     width: 60vw;
     display: flex;
@@ -109,7 +110,7 @@
     
 }
 
-#socialsContainer p {
+.socialsContainer p {
     padding-left: 0px;
 }
 
@@ -338,6 +339,7 @@
 #nextAndAP {
     display:flex;
     justify-content: space-between;
+    padding-top: 14px;
 }
 
 #nextAndAP p {
