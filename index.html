@@ -10,7 +10,7 @@
     
 </head>
 <body>
-    <!-- Navigation -------------->
+    <!-- Navigation -->
     <nav id="navigation">
         <div id="guideContainer">
             <i class="fas fa-bars guideLogo" id="guide"></i>
@@ -24,27 +24,33 @@
         </form>
         <img src="images/icons.png" alt="icons" id="icons">
     </nav>
-    <!-- Content and sidebar container -------------->
+    <!-- Content and sidebar container -->
         <div id="mainContent">
-    <!-- Main Content -------------->
+    <!-- Main Content -->
         <main id="main">
-            <iframe id="mainVideo" src="https://www.youtube.com/embed/tw2hcKNoz40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="mainVideo" src="https://www.youtube.com/embed/tw2hcKNoz40" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h1 id="videoTitle">Rose Lavelle | Best Moments | USWNT</h1>
-            <div id="socialsContainer">
-                <p>44.872 visualizações</p>
+            <div class="socialsContainer">
+                <p>44,872 views</p>
                 <div id="socialsIcons">
-                    <i class="fa fa-thumbs-up socialIcon"> 512</i>
-                    <i class="fa fa-thumbs-down socialIcon">2</i>
-                    <img class ="socialIcon" src="images/share.png" alt="icons" id="icon">
+                    <div class="socialIconsContainer">
+                        <i class="fa fa-thumbs-up socialIcon"></i>
+                        <p>512</p>
+                    </div>
+                    <div class="socialIconsContainer">
+                        <i class="fa fa-thumbs-down socialIcon"></i>
+                        <p>2</p>
+                    </div>
+                    <img class ="socialIcon icon" src="images/share.png" alt="icons">
                     <p>Share</p>
-                    <img class ="socialIcon" src="images/save.png" alt="icons" id="icon">
+                    <img class ="socialIcon icon" src="images/save.png" alt="icons">
                     <p>Save</p>
-                    <img class ="socialIcon" src="images/dots.svg" alt="icons" id="icon">
+                    <img class ="socialIcon icon" src="images/dots.svg" alt="icons">
                 </div>
             </div>
-    <!-- spacer for seperation -------------->        
+    <!-- spacer for seperation -->        
             <div class="spacer"></div>
-    <!-- video description -------------->
+    <!-- video description -->
             <div id="videoDescription">
                 <div id="channelDescription">
                     <img id="channelImage" src="images/channel.jpg" alt="channel">
@@ -54,14 +60,14 @@
                     </div>
                 </div>
                 <div>
-                    <button id="subscribeButton" type="submit">SUBSCRIBE 25 THOUSAND</button>
+                    <button id="subscribeButton" type="submit">SUBSCRIBE 25K</button>
                 </div>
             </div>
             <div id="category">
                 <p>Category</p>
                 <a href="#">Sports</a>
             </div> 
-            <!-- spacer for seperation -------------->        
+            <!-- spacer for seperation -->        
             <div class="spacer"></div>  
             <!--Comment section!-->   
             <div id="commentsSort">
@@ -87,8 +93,14 @@
                             <p>Who is here from france v USA 👀</p>
                         </div>
                         <div class="likes">
-                            <i class="fa fa-thumbs-up socialIcon"> 41</i>
-                            <i class="fa fa-thumbs-down socialIcon">  </i>
+                            <div class="socialIconsContainer">
+                                <i class="fa fa-thumbs-up socialIcon"></i>
+                                <p>41 </p>
+                            </div>
+                            <div class="socialIconsContainer">
+                                <i class="fa fa-thumbs-down socialIcon"></i>
+                                <p></p>
+                            </div>
                             <p>Reply</p>
                         </div>
                     </div>
@@ -104,8 +116,14 @@
                             <p>At least in the US national team, most of Morgan's goals come from Rapinoe's assistances. They are easily the best front duo in the world, perhaps in history of women soccer.</p>
                         </div>
                         <div class="likes">
-                            <i class="fa fa-thumbs-up socialIcon"> 6</i>
-                            <i class="fa fa-thumbs-down socialIcon">  </i>
+                            <div class="socialIconsContainer">
+                                <i class="fa fa-thumbs-up socialIcon"></i>
+                                <p>41 </p>
+                            </div>
+                            <div class="socialIconsContainer">
+                                <i class="fa fa-thumbs-down socialIcon"></i>
+                                <p></p>
+                            </div>
                             <p>Reply</p>
                         </div>
                     </div>
@@ -121,8 +139,14 @@
                             <p>Who is here from france v USA 👀</p>
                         </div>
                         <div class="likes">
-                            <i class="fa fa-thumbs-up socialIcon"> 41</i>
-                            <i class="fa fa-thumbs-down socialIcon">  </i>
+                            <div class="socialIconsContainer">
+                                <i class="fa fa-thumbs-up socialIcon"></i>
+                                <p>6</p>
+                            </div>
+                            <div class="socialIconsContainer">
+                                <i class="fa fa-thumbs-down socialIcon"></i>
+                                <p></p>
+                            </div>
                             <p>Reply</p>
                         </div>
                     </div>
@@ -138,32 +162,72 @@
                             <p>At least in the US national team, most of Morgan's goals come from Rapinoe's assistances. They are easily the best front duo in the world, perhaps in history of women soccer.</p>
                         </div>
                         <div class="likes">
-                            <i class="fa fa-thumbs-up socialIcon"> 6</i>
-                            <i class="fa fa-thumbs-down socialIcon">  </i>
+                            <div class="socialIconsContainer">
+                                <i class="fa fa-thumbs-up socialIcon"></i>
+                                <p>6</p>
+                            </div>
+                            <div class="socialIconsContainer">
+                                <i class="fa fa-thumbs-down socialIcon"></i>
+                                <p></p>
+                            </div>
                             <p>Reply</p>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-    <!-- sidebar -------------->
-        <sidebar id="sidebar">
+    <!-- sidebar -->
+        <div id="sidebar">
             <div id="nextAndAP">
                 <p>Next</p>
                 <div id="autoplay">
                     <p>AUTOPLAY</p>
-                    <img src="/images/autoplay.png" alt="autoplay">
+                    <img src="images/autoplay.png" alt="autoplay">
                 </div>
             </div>
             <div class="videoThumbnail">
-                <img src="/images/videoThumbnail.png" alt="thumbnail">
+                <img src="images/videoThumbnail.png" alt="thumbnail">
                 <div class="videoText">
                     <h3>The journey: Rose Lavelle</h3>
                     <p>U.S Soccer</p>
                     <p>314 k views</p>
                 </div>
             </div>
-        </sidebar>
+            <!-- spacer for seperation -->        
+            <div class="thumbnailSpacer"></div>  
+            <div class="videoThumbnail2">
+                <img src="images/videoThumbnail.png" alt="thumbnail">
+                <div class="videoText">
+                    <h3>The journey: Rose Lavelle</h3>
+                    <p>U.S Soccer</p>
+                    <p>314 k views</p>
+                </div>
+            </div>  
+            <div class="videoThumbnail2">
+                <img src="images/videoThumbnail.png" alt="thumbnail">
+                <div class="videoText">
+                    <h3>The journey: Rose Lavelle</h3>
+                    <p>U.S Soccer</p>
+                    <p>314 k views</p>
+                </div>
+            </div> 
+            <div class="videoThumbnail2">
+                <img src="images/videoThumbnail.png" alt="thumbnail">
+                <div class="videoText">
+                    <h3>The journey: Rose Lavelle</h3>
+                    <p>U.S Soccer</p>
+                    <p>314 k views</p>
+                </div>
+            </div> 
+            <div class="videoThumbnail2">
+                <img src="images/videoThumbnail.png" alt="thumbnail">
+                <div class="videoText">
+                    <h3>The journey: Rose Lavelle</h3>
+                    <p>U.S Soccer</p>
+                    <p>314 k views</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

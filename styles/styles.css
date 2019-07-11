@@ -6,10 +6,9 @@
 /* styling navigation bar */
 
 #navigation {
-    width: 1287px;
     height: 56px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 16px; 
     
@@ -24,6 +23,7 @@
     width: 24px;
     height: 24px;
     cursor: pointer;
+    padding-top: 4.5px;
 }
 
 #logo {
@@ -78,7 +78,7 @@
     padding-top: 24px;
     margin-left: 24px;
     padding-right: 24px;
-    background-color: purple;
+    /*background-color: purple;*/
     width: 60vw;
     display: flex;
     flex-direction: column;
@@ -88,23 +88,30 @@
 
 #videoTitle {
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #mainVideo {
     width: 60vw;
     height: 528px;
-    left: 0px;
-    top: 0px;
-
+    left: 0;
+    top: 0;
+    border-width: 0;
 }
 
-#socialsContainer {
-    background-color: blue;
+.socialsContainer {
+    /*background-color: blue;*/
     width: 60vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.socialsContainer p {
+    padding-left: 0;
 }
 
 #socialsIcons {
@@ -112,21 +119,41 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    color: gray;
+    cursor: pointer;
 }
+
 
 .socialIcon {
     padding: 0px 10px;
+    color: grey;
+    cursor: pointer;
 }
 
-#icon {
+.socialIconsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialIconsContainer p {
+    padding-left: 0px;
+}
+
+.icon {
     width: 15px;
     height: 15px;
     cursor: pointer;
 }
 
-/* styling for spacer*/
+/* styling for spacers*/
 .spacer {
     width: 60vw;
+    height: 1px;
+    background-color: lightgray;
+    margin: 20px 0px;
+}
+
+.thumbnailSpacer {
     height: 1px;
     background-color: lightgray;
     margin: 20px 0px;
@@ -137,6 +164,7 @@
 #channelImage {
     height: 48px;
     width: 48px;
+    cursor: pointer;
 }
 
 #channelNameContainer h2 {
@@ -172,19 +200,22 @@
 }
 
 #subscribeButton {
-    background-color: red;
+    background-color: #cc0000;
     border-radius: 2px;
     color: white;
-    width: 240px;
-    height: 56px;
+    width: 132px;
+    border-radius: 2px;
+    height: 36px;
     cursor: pointer;
-    border-color: red;
-    
+    border-color:#cc0000;
+    font-weight: bold;  
+    font-size: 14px;  
 }
 
 #category {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 #category p {
@@ -213,6 +244,7 @@
     flex-direction: row;
     margin-left: 30px;
     align-items: center;
+    cursor: pointer;
 }
 
 #sortIcon {
@@ -295,7 +327,7 @@
 
 /* Sidebar */
 #sidebar {
-    background-color: red;
+    /*background-color: red;*/
     width: 31vw;
     min-height: 4163px;
     margin-right: 100px;
@@ -307,6 +339,7 @@
 #nextAndAP {
     display:flex;
     justify-content: space-between;
+    padding-top: 14px;
 }
 
 #nextAndAP p {
@@ -321,7 +354,7 @@
 }
 
 #autoplay p {
-    color: lightgrey;
+    color: grey;
     padding-right: 5px;
 }
 
@@ -335,12 +368,27 @@
 .videoThumbnail {
     display: flex;
     flex-direction: row;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.videoThumbnail2 img {
+    height: 94px;
+    width: 168px;
+}
+
+.videoThumbnail2 {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    cursor: pointer;
 }
 
 .videoText p, h3 {
     padding-left: 5px;
+    font-size: 13px;
 }
 
 .videoText p {
-    color: lightgrey;
+    color: grey;
 }
